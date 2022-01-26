@@ -1,5 +1,5 @@
 section aside h1 + p{
-    color:skyblue
+    color:skyblue;
 }
 a:link {
     color: skyblue;
@@ -26,10 +26,10 @@ p[id] {
     color: seagreen;
 }
 .bold {
-    font-weight:bold
+    font-weight:bold;
 }
 .normal {
-    font-weight:normal
+    font-weight:normal;
 }
 .hundred {
     font-weight:100
@@ -52,6 +52,20 @@ p[id] {
 #text-indent p:nth-child(3) {
     text-indent: 30px;
 }
+#text-shadow p:nth-child(1) {
+    text-shadow:10px 10px skyblue;
+}
+#text-shadow p:nth-child(3) {
+    text-shadow:2px 3px pink;
+}
+#text-shadow p:nth-child(4) {
+    color:skyblue;font-size:50px;text-shadow:3px 3px 10px skyblue;
+}
 #text-transform p {
     text-transform: uppercase;
+}
+#box-shadow {
+    width: 300px;
+    height: 100px;
+    background:skyblue;box-shadow: 10px 10px 10px lightblue;
 }
