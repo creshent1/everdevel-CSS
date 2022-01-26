@@ -1,0 +1,57 @@
+section aside h1 + p{
+    color:skyblue
+}
+a:link {
+    color: skyblue;
+}
+a:visited {
+    color: hotpink;
+}
+a:hover {
+    color: orange;
+}
+a:active {
+    color: green;
+}
+#only-child p:only-child {
+    color: skyblue ;
+}
+#only-of-type p:only-of-type {
+    color: red;
+}
+p[id] {
+    color: blue;
+}
+[class] {
+    color: seagreen;
+}
+.bold {
+    font-weight:bold
+}
+.normal {
+    font-weight:normal
+}
+.hundred {
+    font-weight:100
+} 
+.fourhundred {
+    font-weight:400
+}
+.ninehundred {
+    font-weight:900
+}
+#text-indent {
+    background-color: skyblue;
+}
+#text-indent p:nth-child(1) {
+    text-indent: 10px;
+}
+#text-indent p:nth-child(2) {
+    text-indent: 20px;
+}
+#text-indent p:nth-child(3) {
+    text-indent: 30px;
+}
+#text-transform p {
+    text-transform: uppercase;
+}
