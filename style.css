@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 section aside h1 + p{
     color:skyblue;
 }
@@ -68,4 +72,96 @@ p[id] {
     width: 300px;
     height: 100px;
     background:skyblue;box-shadow: 10px 10px 10px lightblue;
+}
+#visibility b {
+    visibility: hidden;
+}
+.solid{border:4px solid lightgray}
+.dotted{border:4px dotted lightgray}
+.dashed{border:4px dashed lightgray}
+.double{border:4px double lightgray}
+.groove{border:4px groove lightgray}
+.ridge{border:4px ridge lightgray}
+.inset{border:4px inset lightgray}
+.outset{border:4px outset lightgray}
+#outline {
+    outline: none;
+}
+#float div {
+    float: right;
+    width:50px;
+    height:50px;
+    margin:10px;
+    border:1px solid black
+}
+#clear div {
+    float:right;
+    width:50px;
+    height:50px;
+    margin:10px;
+    border:1px solid black
+}
+.box2{
+    clear:both
+}
+.move {
+    width: 100px;
+    height: 50px;
+    background-color: skyblue;
+    border-radius: 5px;
+    position: relative;
+    animation: move 3s 100;
+}
+@keyframes move {
+    from{
+        left: 0;
+    }
+    to{
+        left: 1000px;
+    }
+}
+.transform {
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    background-color: skyblue;
+    transform: rotate(40deg);
+}
+.box {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: skyblue;
+}
+.x2 {
+    transform: scale(2);
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.half {
+    transform: scale(0.5);
+}
+.box {
+    float:left;width:100px;
+    height:100px;margin:10px;
+    background:skyblue
+}
+.box1 {
+    transform:skew(50deg, 0deg)
+}
+.box2 {
+    transform:skew(0deg, 50deg)
+}
+.box3 {
+    transform:skew(50deg)
+}
+.transform-2 {
+    width:100px;
+    height:100px;margin:50px;
+    background:pink;transform:rotateX(0deg);
+    transition:all 5s linear
+}
+.transform-2:hover {
+    transform:rotateX(50deg)
 }
