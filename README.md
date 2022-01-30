@@ -1,3 +1,3 @@
 # everdevel-css
 https://creshent1.github.io/everdevel-css/
-내일은 레이아웃 만들 예정
+미디어 쿼리 반정도 함
